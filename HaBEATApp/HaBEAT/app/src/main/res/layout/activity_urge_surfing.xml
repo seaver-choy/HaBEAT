@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#fffff9ef"
+    tools:context="com.jtbmilan.habeat.selfhelp.urgesurfing.UrgeSurfingActivity">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Control your alcohol cravings by urge surfing. Press the play button to start the meditation exercise."
+            android:id="@+id/textView2"
+        android:textColor="@android:color/holo_purple"
+        android:layout_above="@+id/mediaBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="59dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_btn_lbl"
+        android:id="@+id/backBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickBackBtn" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/mediaBtn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/media_play_btn"
+        android:onClick="onClickMediaBtn"
+        android:nestedScrollingEnabled="true" />
+
+</RelativeLayout>

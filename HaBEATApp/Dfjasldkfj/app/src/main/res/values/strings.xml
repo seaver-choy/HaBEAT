@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HaBeat</string>
+
+    <string name="title_section1">Support Group</string>
+    <string name="title_section2">Leaderboard</string>
+    <string name="title_section3">Statistics</string>
+    <string name="title_section4">Analytics</string>
+    <string name="title_section5">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

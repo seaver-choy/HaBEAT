@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jtbmilan.habeat" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".selfhelp.deepbreathing.DeepBreathingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_deep_breathing"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".selfhelp.urgesurfing.UrgeSurfingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_urge_surfing"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".selfhelp.selfmassage.SelfMassageActivity"
+            android:label="@string/title_activity_self_massage" >
+        </activity>
+        <activity
+            android:name=".drawer"
+            android:label="@string/title_activity_drawer" >
+        </activity>
+    </application>
+
+</manifest>
